@@ -1,0 +1,58 @@
+---
+const navLinks = [
+  { href: "/", label: "blog" },
+  { href: "/sobre", label: "sobre" },
+];
+
+const pathname = Astro.url.pathname;
+---
+
+<nav>
+  <a href="/" class="logo">myllena.dev</a>
+  <div class="links">
+    {navLinks.map(link => (
+      <a
+        href={link.href}
+        class={pathname === link.href ? "active" : ""}
+      >
+        {link.label}
+      </a>
+    ))}
+  </div>
+</nav>
+
+<style>
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--color-border);
+    margin-bottom: 48px;
+  }
+
+  .logo {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--color-text);
+    text-decoration: none;
+    letter-spacing: -0.3px;
+  }
+
+  .links {
+    display: flex;
+    gap: 24px;
+  }
+
+  .links a {
+    font-size: 14px;
+    color: var(--color-muted);
+    text-decoration: none;
+    transition: color 0.15s;
+  }
+
+  .links a:hover,
+  .links a.active {
+    color: var(--color-text);
+  }
+</style>

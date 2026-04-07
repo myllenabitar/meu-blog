@@ -1,17 +1,114 @@
 ---
+import Nav from "../components/Nav.astro";
+import BaseLayout from "../layouts/BaseLayouts.astro";
+import { getCollection } from "astro:content";
 
+const posts = await getCollection("blog");
+posts.sort((a: { data: { date: number; }; }, b: { data: { date: number; }; }) => b.data.date.valueOf() - a.data.date.valueOf());
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<BaseLayout title="Blog | Myllena">
+  <Nav />
+
+  <section class="hero">
+    <p class="label">anotações de dev</p>
+    <h1>Aprendendo em público</h1>
+    <p class="sub">Aqui eu documento o que estou aprendendo — Astro, CSS, TypeScript, e tudo mais que aparecer no caminho.</p>
+  </section>
+
+  <section class="posts">
+    {posts.map((post: typeof posts[0]) => (
+      <a href={`/blog/${post.slug}`} class="post-card">
+        <div class="post-top">
+          {post.data.tags && post.data.tags.map((tag: unknown) => (
+            <span class="tag">{tag}</span>
+          ))}
+          <span class="date">
+            {post.data.date.toLocaleDateString("pt-BR", { day: "2-digit", month: "short", year: "numeric" })}
+          </span>
+        </div>
+        <h2>{post.data.title}</h2>
+        <p>{post.data.description}</p>
+      </a>
+    ))}
+  </section>
+</BaseLayout>
+
+<style>
+  .hero {
+    margin-bottom: 48px;
+  }
+
+  .label {
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-muted);
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    margin-bottom: 10px;
+  }
+
+  .sub {
+    font-size: 15px;
+    color: var(--color-muted);
+    max-width: 480px;
+  }
+
+  .posts {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .post-card {
+    display: block;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--color-border);
+    text-decoration: none;
+    color: inherit;
+    transition: opacity 0.15s;
+  }
+
+  .post-card:hover {
+    opacity: 0.6;
+  }
+
+  .post-top {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+
+  .tag {
+    font-size: 11px;
+    background: var(--color-tag-bg);
+    color: var(--color-muted);
+    padding: 2px 8px;
+    border-radius: 4px;
+  }
+
+  .date {
+    font-size: 12px;
+    color: var(--color-muted);
+    margin-left: auto;
+  }
+
+  h2 {
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: -0.3px;
+    margin-bottom: 4px;
+  }
+
+  p {
+    font-size: 14px;
+    color: var(--color-muted);
+  }
+</style>

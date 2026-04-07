@@ -1,0 +1,65 @@
+---
+import Nav from "../components/Nav.astro";
+import BaseLayout from "../layouts/BaseLayouts.astro";
+---
+
+<BaseLayout title="Sobre | Myllena">
+  <Nav />
+
+  <section class="sobre">
+    <h1>Oi, eu sou a Myllena </h1>
+    <p>
+      Desenvolvedora Full-Stack baseada em São Paulo. Esse blog é o lugar onde
+      documento o que estou aprendendo
+    </p>
+    <p>
+      Atualmente explorando Astro, TypeScript, C# e tudo que aparecer no caminho.
+      A ideia é aprender em público e quem sabe ajudar alguém no processo.
+    </p>
+
+    <div class="links">
+      <a href="https://github.com/myllenabitar" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/in/myllenabitar" target="_blank">LinkedIn</a>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .sobre {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  h1 {
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+  }
+
+  p {
+    font-size: 15px;
+    color: var(--color-muted);
+    line-height: 1.7;
+    max-width: 520px;
+  }
+
+  .links {
+    display: flex;
+    gap: 16px;
+    margin-top: 8px;
+  }
+
+  .links a {
+    font-size: 14px;
+    color: var(--color-text);
+    text-decoration: none;
+    border-bottom: 1px solid var(--color-border);
+    padding-bottom: 2px;
+    transition: border-color 0.15s;
+  }
+
+  .links a:hover {
+    border-color: var(--color-text);
+  }
+</style>
