@@ -1,0 +1,74 @@
+---
+import BaseLayout from "../../layouts/BaseLayouts.astro";
+import Nav from "../../components/Nav.astro";
+
+export async function getStaticPaths() {
+  const posts = import.meta.glob("../../content/blog/*.md", { eager: true }) as Record<
+    string,
+    {
+      frontmatter: {
+        title: string;
+        date: string | Date;
+      };
+      file: string;
+      default: any;
+    }
+  >;
+  
+  return Object.values(posts).map((post) => {
+    const slug = post.file.split('/').pop()?.replace(/\.md$/, '') ?? '';
+    return {
+      params: { slug },
+      props: { post },
+    };
+  });
+}
+
+const { post } = Astro.props;
+const Content = post.default;
+---
+
+<BaseLayout title={post.frontmatter.title}>
+  <Nav />
+  
+  <article class="post-content">
+    <header>
+      <h1>{post.frontmatter.title}</h1>
+      <p class="date">
+        {new Date(post.frontmatter.date).toLocaleDateString("pt-BR", { 
+          day: "2-digit", month: "short", year: "numeric" 
+        })}
+      </p>
+      <canvas id="confetti-canvas" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;"></canvas>
+    </header>
+
+    <Content />
+  </article>
+</BaseLayout>
+
+<style>
+  .post-content {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 40px 0;
+  }
+  header {
+    margin-bottom: 32px;
+  }
+  h1 {
+    font-size: 32px;
+    margin-bottom: 8px;
+  }
+  .date {
+    color: var(--color-muted);
+    font-size: 14px;
+  }
+  .post-content p {
+    font-size: 16px;
+    margin: 24px 0 16px;
+  }
+  .post-content img {
+    margin-bottom: 16px;
+    max-width: 100%;
+  }
+</style>

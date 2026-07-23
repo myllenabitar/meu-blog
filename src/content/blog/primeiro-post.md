@@ -18,3 +18,5 @@ no navegador.
 
 Pretendo escrever sobre tudo que estou aprendendo: TypeScript, CSS, ferramentas,
 boas práticas. A ideia é aprender em público.
+
+![Minha imagem de teste](/teste.png)

@@ -4,7 +4,6 @@ import BaseLayout from "../layouts/BaseLayouts.astro";
 import { getCollection } from "astro:content";
 
 const posts = await getCollection("blog");
-posts.sort((a: { data: { date: number; }; }, b: { data: { date: number; }; }) => b.data.date.valueOf() - a.data.date.valueOf());
 ---
 
 <BaseLayout title="Blog | Myllena">
@@ -18,7 +17,7 @@ posts.sort((a: { data: { date: number; }; }, b: { data: { date: number; }; }) =>
 
   <section class="posts">
     {posts.map((post: typeof posts[0]) => (
-      <a href={`/blog/${post.slug}`} class="post-card">
+      <a href={`/blog/${post.id}`} class="post-card"> 
         <div class="post-top">
           {post.data.tags && post.data.tags.map((tag: unknown) => (
             <span class="tag">{tag}</span>
