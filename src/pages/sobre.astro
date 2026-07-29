@@ -99,9 +99,6 @@ import Nav from "../components/Nav.astro";
 </Portfolio>
 
 <style is:global>
-/* =========================================
-   GLOBAL
-   ========================================= */
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -198,9 +195,6 @@ a {
     }
 }
 
-/* =========================================
-   INTRODUÇÃO
-   ========================================= */
 .introducao {
     max-width: 1200px;
     padding: 80px 24px 100px;
@@ -288,9 +282,6 @@ a {
     }
 }
 
-/* =========================================
-   EXPERIÊNCIA
-   ========================================= */
 .experiencia {
     max-width: 1200px;
     padding: 80px 24px 100px;
@@ -313,6 +304,8 @@ a {
     max-width: 52ch;
     margin-bottom: 48px;
     color: var(--color-cinza-escuro);
+    text-align: justify;
+    line-height: 1.6;
 }
 
 .experiencia-texto strong {
@@ -431,9 +424,6 @@ a {
     }
 }
 
-/* =========================================
-   FORMAÇÃO
-   ========================================= */
 .formacao {
     background: var(--color-dark-bg);
     color: var(--color-branco);
@@ -462,6 +452,8 @@ a {
     max-width: 52ch;
     margin-bottom: 52px;
     color: var(--color-cinza-medio);
+    text-align: justify;
+    line-height: 1.6;
 }
 
 .formacao-texto strong {
@@ -594,7 +586,6 @@ a {
         text-align: justify;
     }
 
-    /* Empilha os cards em uma única coluna no celular */
     .faculdade-lista {
         grid-template-columns: 1fr;
     }
