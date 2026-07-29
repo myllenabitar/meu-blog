@@ -86,9 +86,8 @@ const Content = post.default;
     font-size: 16px;
     margin: 24px 0 16px;
     line-height: 1.6;
-    text-align: justify; /* Força o alinhamento justificado do texto */
+    text-align: justify; 
   }
-
   @media (max-width: 600px) {
     .post-content {
       padding: 24px 24px;
@@ -97,14 +96,13 @@ const Content = post.default;
       font-size: 15px;
     }
   }
-
 #progress-bar {
     position: fixed;
     top: 0;
     left: 0;
     width: 0%;
     height: 4px;
-    background: #0071e3; /* <-- Colocamos a cor exata aqui direto, sem variável! */
+    background: #0071e3; 
     z-index: 9999;
     transition: width 0.1s ease-out;
   }
@@ -115,7 +113,6 @@ const Content = post.default;
     const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
     const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
     
-    // Se a página for curta e não tiver scroll, evita que a barra quebre
     if (height <= 0) return; 
 
     const scrolled = (winScroll / height) * 100;
