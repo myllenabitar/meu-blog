@@ -49,12 +49,6 @@ const Content = post.default;
 </BaseLayout>
 
 <style is:global>
-  .post-content {
-    max-width: 680px;
-    margin: 0 auto;
-    padding: 40px 0;
-    width: 100%;
-  }
   .post-content header {
     margin-bottom: 32px;
   }
@@ -67,11 +61,6 @@ const Content = post.default;
   .post-content .date {
     color: var(--color-muted);
     font-size: 14px;
-  }
-  .post-content p {
-    font-size: 16px;
-    margin: 24px 0 16px;
-    line-height: 1.6;
   }
   .post-content img {
     margin-bottom: 16px;
@@ -86,10 +75,23 @@ const Content = post.default;
     border-radius: 8px;
     font-size: 14px;
   }
+  .post-content {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 40px 24px; 
+    width: 100%;
+  }
+
+  .post-content p {
+    font-size: 16px;
+    margin: 24px 0 16px;
+    line-height: 1.6;
+    text-align: justify; /* Força o alinhamento justificado do texto */
+  }
 
   @media (max-width: 600px) {
     .post-content {
-      padding: 24px 0;
+      padding: 24px 24px;
     }
     .post-content p {
       font-size: 15px;
