@@ -10,6 +10,10 @@ const { title, description = "Blog da Myllena" } = Astro.props;
 <!doctype html>
 <html lang="pt-BR">
   <head>
+    <meta property="og:title" content="Myllena Bitar | Desenvolvedora Full-Stack" />
+    <meta property="og:description" content="Portfólio e anotações de dev. Interfaces e aplicações com React, Next.JS, C# e Astro." />
+    <meta property="og:image" content="/myllenabitar.jpeg" />
+    <meta property="og:type" content="website" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
@@ -20,7 +24,7 @@ const { title, description = "Blog da Myllena" } = Astro.props;
         box-sizing: border-box;
         margin-top: 0;
         padding-top: 0;
-        margin-left: 0;
+        margin-left: 5px;
         margin-right: 5px;
         padding-right:0;
       }
@@ -34,7 +38,17 @@ const { title, description = "Blog da Myllena" } = Astro.props;
         --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
         --max-width: 1200px;
       }
-
+        a, button, .faculdade, .empresa {
+      transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+      a:not(.link-projeto):hover {
+      opacity: 0.7;
+  }
+      *:focus-visible {
+      outline: 2px solid var(--color-azul);
+      outline-offset: 4px;
+      border-radius: 4px;
+  }
       body {
         font-family: var(--font);
         background: var(--color-bg);

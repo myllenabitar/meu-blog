@@ -43,6 +43,8 @@ const Content = post.default;
     </header>
 
     <Content />
+    
+    <div id="progress-bar"></div>
   </article>
 </BaseLayout>
 
@@ -93,4 +95,31 @@ const Content = post.default;
       font-size: 15px;
     }
   }
+
+#progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 4px;
+    background: #0071e3; /* <-- Colocamos a cor exata aqui direto, sem variável! */
+    z-index: 9999;
+    transition: width 0.1s ease-out;
+  }
 </style>
+
+<script is:inline>
+  window.addEventListener('scroll', () => {
+    const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    
+    // Se a página for curta e não tiver scroll, evita que a barra quebre
+    if (height <= 0) return; 
+
+    const scrolled = (winScroll / height) * 100;
+    const progressBar = document.getElementById('progress-bar');
+    if (progressBar) {
+      progressBar.style.width = scrolled + '%';
+    }
+  });
+</script>

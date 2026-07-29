@@ -1,0 +1,53 @@
+---
+import Portfolio from "../layouts/PortifolioLayout.astro";
+import Nav from "../components/Nav.astro";
+---
+
+<Portfolio title="Página não encontrada | 404">
+  <Nav />
+  
+  <main class="erro-container">
+    <h1>404</h1>
+    <p>Ops! Parece que essa rota não existe ou foi movida.</p>
+    <a href="/" class="btn-voltar">Voltar para a Home</a>
+  </main>
+</Portfolio>
+
+<style>
+  .erro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    text-align: center;
+    padding: 20px;
+    animation: fadeUp 0.5s ease;
+  }
+
+  h1 {
+    font-size: 5rem;
+    color: var(--color-preto);
+    margin-bottom: 16px;
+    letter-spacing: -0.04em;
+  }
+
+  p {
+    font-size: 1.25rem;
+    color: var(--color-cinza-escuro);
+    margin-bottom: 32px;
+  }
+
+  .btn-voltar {
+    background: var(--color-azul);
+    color: var(--color-branco);
+    padding: 12px 24px;
+    border-radius: var(--radius-sm);
+    font-weight: 600;
+    transition: background var(--transition);
+  }
+
+  .btn-voltar:hover {
+    background: var(--color-azul-hover);
+  }
+</style>

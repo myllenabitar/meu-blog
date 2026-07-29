@@ -1,22 +1,187 @@
 ---
-title: "Começando meu blog com Astro"
-date: 2025-01-12
-description: "Por que escolhi o Astro para criar meu blog e o que aprendi no processo."
-tags: ["astro", "blog"]
+title: "Meu primeiro post no blog"
+description: "Testando a arquitetura do Astro com Markdown."
+date: 2026-07-29
+tags: ["Astro", "Web"]
 ---
 
-Depois de muito tempo querendo ter um espaço para documentar o que aprendo,
-finalmente coloquei esse blog de pé.
+# Olá, mundo!
 
-## Por que Astro?
+Essa é a estrutura do meu blog. O texto que eu escrevo aqui embaixo já vai aparecer formatado lá na página, com as imagens e tudo mais. Posso até colocar trechos de código!
 
-O Astro é um framework focado em performance. Ele gera HTML estático por padrão,
-o que significa que o blog vai ser extremamente rápido — sem JavaScript desnecessário
-no navegador.
 
-## O que vem por aí
 
-Pretendo escrever sobre tudo que estou aprendendo: TypeScript, CSS, ferramentas,
-boas práticas. A ideia é aprender em público.
 
-![Minha imagem de teste](/teste.png)
+# Olá, mundo!
+
+Essa é a estrutura do meu blog. O texto que eu escrevo aqui embaixo já vai aparecer formatado lá na página, com as imagens e tudo mais. Posso até colocar trechos de código!
+
+
+
+
+
+# Olá, mundo!
+
+Essa é a estrutura do meu blog. O texto que eu escrevo aqui embaixo já vai aparecer formatado lá na página, com as imagens e tudo mais. Posso até colocar trechos de código!
+
+
+
+
+
+
+
+
+# Olá, mundo!
+
+Essa é a estrutura do meu blog. O texto que eu escrevo aqui embaixo já vai aparecer formatado lá na página, com as imagens e tudo mais. Posso até colocar trechos de código!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Olá, mundo!
+
+Essa é a estrutura do meu blog. O texto que eu escrevo aqui embaixo já vai aparecer formatado lá na página, com as imagens e tudo mais. Posso até colocar trechos de código!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Olá, mundo!
+
+Essa é a estrutura do meu blog. O texto que eu escrevo aqui embaixo já vai aparecer formatado lá na página, com as imagens e tudo mais. Posso até colocar trechos de código!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Olá, mundo!
+
+Essa é a estrutura do meu blog. O texto que eu escrevo aqui embaixo já vai aparecer formatado lá na página, com as imagens e tudo mais. Posso até colocar trechos de código!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Olá, mundo!
+
+Essa é a estrutura do meu blog. O texto que eu escrevo aqui embaixo já vai aparecer formatado lá na página, com as imagens e tudo mais. Posso até colocar trechos de código!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Olá, mundo!
+
+Essa é a estrutura do meu blog. O texto que eu escrevo aqui embaixo já vai aparecer formatado lá na página, com as imagens e tudo mais. Posso até colocar trechos de código!
+# Olá, mundo!
+
+Essa é a estrutura do meu blog. O texto que eu escrevo aqui embaixo já vai aparecer formatado lá na página, com as imagens e tudo mais. Posso até colocar trechos de código!
+# Olá, mundo!
+
+Essa é a estrutura do meu blog. O texto que eu escrevo aqui embaixo já vai aparecer formatado lá na página, com as imagens e tudo mais. Posso até colocar trechos de código!
+# Olá, mundo!
+
+Essa é a estrutura do meu blog. O texto que eu escrevo aqui embaixo já vai aparecer formatado lá na página, com as imagens e tudo mais. Posso até colocar trechos de código!
+# Olá, mundo!
+
+Essa é a estrutura do meu blog. O texto que eu escrevo aqui embaixo já vai aparecer formatado lá na página, com as imagens e tudo mais. Posso até colocar trechos de código!
+# Olá, mundo!
+
+Essa é a estrutura do meu blog. O texto que eu escrevo aqui embaixo já vai aparecer formatado lá na página, com as imagens e tudo mais. Posso até colocar trechos de código!
+
+# Olá, mundo!
+
+Essa é a estrutura do meu blog. O texto que eu escrevo aqui embaixo já vai aparecer formatado lá na página, com as imagens e tudo mais. Posso até colocar trechos de código!
