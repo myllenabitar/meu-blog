@@ -2,7 +2,7 @@
 title: "Hello World: Começando meu blog"
 description: "Um pouco sobre mim, minha jornada como Desenvolvedora Full-Stack e o que você vai encontrar por aqui."
 date: 2026-07-29
-tags: ["Carreira", "Astro", "Web", "Migração de carreira"]
+tags: ["Carreira", "Web", "Migração de carreira"]
 ---
 
 # Olá, mundo! 
