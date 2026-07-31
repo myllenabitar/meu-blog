@@ -1,7 +1,6 @@
 ---
 const navLinks = [
   { href: "/", label: "blog" },
-  { href: "/sobre", label: "sobre" },
 ];
 
 const pathname = Astro.url.pathname;
@@ -16,6 +15,9 @@ const pathname = Astro.url.pathname;
         class={pathname === link.href ? "active" : ""}
       >
         {link.label}
+      </a>
+      <a href="https://myllenabitar.github.io/myllenabitar/" target="_blank" rel="noopener noreferrer">
+      sobre
       </a>
     ))}
   </div>

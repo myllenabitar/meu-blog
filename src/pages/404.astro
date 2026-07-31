@@ -1,18 +1,15 @@
 ---
-import Portfolio from "../layouts/PortfolioLayout.astro";
 import Nav from "../components/Nav.astro";
+import BaseLayouts from "../layouts/BaseLayouts.astro";
 ---
-
-<Portfolio title="Página não encontrada | 404">
+<BaseLayouts title="404 - Página não encontrada">
   <Nav />
-  
-  <main class="erro-container">
+  <div class="erro-container">
     <h1>404</h1>
-    <p>Ops! Parece que essa rota não existe ou foi movida.</p>
-    <a href="/" class="btn-voltar">Voltar para a Home</a>
-  </main>
-</Portfolio>
-
+    <p>Página não encontrada</p>
+    <a href="/" class="btn-voltar">Voltar para a página inicial</a>
+  </div>
+</BaseLayouts>
 <style>
   .erro-container {
     display: flex;
