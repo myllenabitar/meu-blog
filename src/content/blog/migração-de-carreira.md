@@ -58,7 +58,7 @@ Houve um período em que voltei para a casa do meu pai. A ideia era conseguir es
 
 Listando como queria a minha vida em médio e longo prazo.
 
-![Listando como queria a minha vida em médio e longo prazo](/public/objetivos.png)
+![Listando como queria a minha vida em médio e longo prazo](/objetivos.png)
 
 ## Estudar enquanto a vida acontecia
 
@@ -73,7 +73,7 @@ Depois de mais uma experiência difícil na Odontologia, tomei uma decisão. Nã
 
 Marcando presença em um Meetup no Google:
 
-![Marcando presença em um Meetup no Google](/public/mylenameetupgoogle.jpeg)
+![Marcando presença em um Meetup no Google](/mylenameetupgoogle.jpeg)
 
 ## A mentoria que mudou tudo
 
@@ -83,7 +83,7 @@ Até hoje, olhando para trás, penso que aquele encontro aconteceu no momento ce
 
 Mais um dia de mentoria...
 
-![Mais um dia de mentoria](/public/myllenachamadadevideo.jpeg)
+![Mais um dia de mentoria](/myllenachamadadevideo.jpeg)
 
 ## A oportunidade que eu esperei tanto
 
@@ -93,7 +93,7 @@ Foi meu mentor, junto com meu namorado, que começou a insistir para que eu tent
 
 O GitHub na época
 
-![GitHub](/public/github.png)
+![GitHub](/github.png)
 
 Fui chamada para várias entrevistas, alguns processos foram congelados, em outros cheguei até as etapas finais, em alguns, simplesmente recebi um "não", e tudo bem. Cada entrevista me ensinava alguma coisa,  ia me tornando cada vez melhor a cada entrevista nova. Cada desafio técnico fazia eu aprender um pouco mais, e viravam cada vez mais commits. Mesmo assim, existia uma voz dentro de mim que dizia:
 
@@ -122,7 +122,7 @@ A única coisa que posso dizer é que, às vezes, a gente passa tempo demais ten
 
 Setup de trabalho
 
-![Setup de trabalho](/public/setupdetrabalho.jpeg)
+![Setup de trabalho](/setupdetrabalho.jpeg)
 
 Obrigada por acompanhar! ;)
 
