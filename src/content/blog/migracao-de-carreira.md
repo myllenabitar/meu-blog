@@ -46,7 +46,7 @@ Esse sempre foi um traço meu, se precisar calcular a rota, eu calculo, se preci
 
 Então, decidi tentar, o que eu tinha a perder? Se não desse certo, pelo menos eu aprenderia alguma coisa nova, e eu sempre gostei de estudar. Pensava que, no pior dos cenários, teria um novo hobby, poderia fazer alguns projetos nas horas vagas ou até conseguir uma renda extra.
 
-E então, foi conversando com um amigo desenvolvedor que recebi a primeira indicação de um curso de Data Science. Comeceiesse curso e até fui longe. Mas, enquanto estudava,fazia o que qualquer pessoa curiosa faz: comecei a assistir vídeos, ler artigos e entender melhor aquele universo. Até que um dia apareceu um vídeo curto no YouTube. Era um rapaz recriando um joguinho do Mario usando apenas HTML, CSS e JavaScript. Pode parecer bobo hoje ou pra você, mas eu fiquei completamente fascinada. Naquele momento pensei:
+E então, foi conversando com um amigo desenvolvedor que recebi a primeira indicação de um curso de Data Science. Comecei esse curso e até fui longe. Mas, enquanto estudava, fazia o que qualquer pessoa curiosa faz: comecei a assistir vídeos, ler artigos e entender melhor aquele universo. Até que um dia apareceu um vídeo curto no YouTube. Era um rapaz recriando um joguinho do Mario usando apenas HTML, CSS e JavaScript. Pode parecer bobo hoje ou pra você, mas eu fiquei completamente fascinada. Naquele momento pensei:
 
 > **É isso.**
 
@@ -54,7 +54,7 @@ Pela primeira vez, eu enxerguei alguém construindo algo do zero e pensei: **eu 
 
 ## Aprendendo a recomeçar
 
-Houve um período em que voltei para a casa do meu pai. A ideia era conseguir estudar mais. Na prática, acho que nem consegui render tanto quanto imaginava. Mas hoje percebo que aquele tempo foi importante por outro motivo. Foi quando parei para pensar, de verdade, sobre a vida que queria construir, planejei meus próximos passos. Escrevi objetivos de curto, médio e longo prazo. E, curiosamente, menos de dois anos depois eu já tinha alcançado praticamente tudo o que havia colocado como meta de médio prazo. Talvez por isso eu acredite tanto em saber onde se quer chegar.E que nem sempre as coisas acontecem exatamente como planejamos. Mas ter uma direção faz muita diferença.
+Houve um período em que voltei para a casa do meu pai. A ideia era conseguir estudar mais. Na prática, acho que nem consegui render tanto quanto imaginava. Mas hoje percebo que aquele tempo foi importante por outro motivo. Foi quando parei para pensar, de verdade, sobre a vida que queria construir, planejei meus próximos passos. Escrevi objetivos de curto, médio e longo prazo. E, curiosamente, menos de dois anos depois eu já tinha alcançado praticamente tudo o que havia colocado como meta de médio prazo. Talvez por isso eu acredite tanto em saber onde se quer chegar. E que nem sempre as coisas acontecem exatamente como planejamos. Mas ter uma direção faz muita diferença.
 
 Listando como queria a minha vida em médio e longo prazo.
 
@@ -87,9 +87,9 @@ Mais um dia de mentoria...
 
 ## A oportunidade que eu esperei tanto
 
-No ano seguinte, minha rotina era praticamente a mesma todos os dias, trabalho, estudo, projetos pessoais, mentoria. Naquela época eu atendia das 9h às 19h. Quando chegava em casa, ainda estudava, fazia cursos, desenvolvia projetos e tentava evoluir um pouco mais, subia tudo no Github. Cada projeto novo representava uma habilidade que eu tinha acabado de aprender, Mas...no fim daquele ano, perdi meu emprego. Na época eu atendia em apenas um consultório e, de repente, me vi diante de uma decisão que eu ainda não me sentia preparada para tomar.
+No ano seguinte, minha rotina era praticamente a mesma todos os dias, trabalho, estudo, projetos pessoais, mentoria. Naquela época eu atendia das 9h às 19h. Quando chegava em casa, ainda estudava, fazia cursos, desenvolvia projetos e tentava evoluir um pouco mais, subia tudo no Github. Cada projeto novo representava uma habilidade que eu tinha acabado de aprender, mas...no fim daquele ano, perdi meu emprego. Na época eu atendia em apenas um consultório e, de repente, me vi diante de uma decisão que eu ainda não me sentia preparada para tomar.
 Foi meu mentor, junto com meu namorado, que começou a insistir para que eu tentasse.
-"Começa a se candidatar."Eu confesso achava cedo, achava que ainda faltava muita coisa. Mas resolvi ouvir, enquanto enviava currículos, continuava estudando. Se aparecia um processo seletivo com desafio técnico, eu fazia, depois, subia o projeto para o GitHub.
+"Começa a se candidatar". Eu confesso achava cedo, achava que ainda faltava muita coisa. Mas resolvi ouvir, enquanto enviava currículos, continuava estudando. Se aparecia um processo seletivo com desafio técnico, eu fazia, depois, subia o projeto para o GitHub.
 
 O GitHub na época
 
@@ -115,7 +115,7 @@ Hoje trabalho da minha casa, posso montar um ambiente onde me sinto confortável
 
 ## Epílogo
 
-Acho que a maior lição dessa história é que mudar de ideia não significa jogar fora tudo o que você construiu, durante muito tempo eu achei que mudar de carreira era admitir que tinha errado, hoje penso exatamente o contrário, nada foi perdido.A Odontologia me ensinou disciplina, responsabilidade, resiliência. Me ensinou a lidar com pessoas, a estudar mesmo quando estava cansada e a continuar mesmo quando as coisas não saíam como eu imaginava, e tudo isso faz parte da profissional que sou hoje.
+Acho que a maior lição dessa história é que mudar de ideia não significa jogar fora tudo o que você construiu, durante muito tempo eu achei que mudar de carreira era admitir que tinha errado, hoje penso exatamente o contrário, nada foi perdido. A Odontologia me ensinou disciplina, responsabilidade, resiliência. Me ensinou a lidar com pessoas, a estudar mesmo quando estava cansada e a continuar mesmo quando as coisas não saíam como eu imaginava, e tudo isso faz parte da profissional que sou hoje.
 
 
 A única coisa que posso dizer é que, às vezes, a gente passa tempo demais tentando convencer a si mesmo a permanecer em um lugar que já não faz sentido, comigo foi assim, até que um dia eu parei de perguntar se eu conseguiria, e comecei a perguntar se eu queria continuar vivendo daquela forma pelos próximos dez ou vinte anos. E ter tentado, foi uma das melhores decisões que já tomei na minha vida.
